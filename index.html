@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TRẢ LỜI CÂU HỎI</title>
+  <script defer>
+    let x = 1
+    x += 3;
+    console.log(x)
+    let dap_an_A = () => {
+      alert("Chúc mừng, đáp án chính xác")
+    }
+    let dap_an = () => {
+      alert("Rất tiếc, đây không phải là đáp án chính xác")
+    }
+  </script>
+</head>
+<body style="background-color: aqua;">
+  <h1><b>Quiz Game</b></h1>
+  <div id="quiz-container">
+    <p id="question"><b>Câu hỏi: </b>Bài hát <b>HÀNH TRÌNH TRÊN ĐẤT PHÙ SA</b> do nhạc sĩ nào sáng tác</p>
+    <ul>
+      <li><button id="optionA" style="color: blueviolet;" onclick="dap_an_A()">ĐÁP ÁN A:Thanh Sơn</button></li>
+      <li> <button id="optionB" style="color: blueviolet;" onclick="dap_an()">ĐÁP ÁN B:Trịnh Công Sơn</button></li>
+      <li><button id="optionC" style="color: blueviolet;" onclick="dap_an()">ĐÁP ÁN C:Văn Cao</button></li>
+      <li><button id="optionD" style="color: blueviolet;" onclick="dap_an()">ĐÁP ÁN D:Đỗ Nhuận</button></li>
+     
+    </ul>
+   
+  </div>
+  <a href="https://tuoitre.vn/nhac-si-cua-mien-tay-74768.htm" style="color: black;">Xem thêm thông tin chi tiết về Bài hát này</a>
+  
+
+
+</body>
+</html>
